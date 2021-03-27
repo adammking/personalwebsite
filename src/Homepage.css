@@ -1,0 +1,61 @@
+.greeting {
+    margin: auto;
+    
+}
+
+.home-welcome {
+    font-size: 5em;
+    color: #66FCF1;
+    animation-name: slide-in-right;
+    animation-duration: 2s;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home-text {
+    color: #C5C6C7;
+    font-size: 1.5em;
+    animation-name: slide-in-left;
+    animation-duration: 2s;
+}
+
+#home-button {
+    background-color: #45A29E;
+    margin-top: 20px;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+#home-container {
+    height: 50vh;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(600px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,28 @@
+.NavBar {
+    background-color:#1F2833;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    
+}
+
+.nav-item {
+    list-style: none;
+    justify-content: left;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #66FCF1;
+}
+
+#navbar-text {
+    color: #66FCF1;
+}
+
+.container-fluid {
+    background-color: #1F2833;
+}
+
+.NavbarToggler {
+    color: #66FCF1;
+    background-color: #66FCF1;;
+}

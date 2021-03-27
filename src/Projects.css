@@ -1,0 +1,46 @@
+.projects {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.card card-title {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.card-body {
+    background-color: #1F2833;
+}
+
+#proj-title {
+    color: #66FCF1;
+    animation-name: slide-in;
+    animation-duration: 1s;
+}
+
+#projButton { 
+    background-color: #45A29E
+}
+
+#full-card {
+    background-color: #10141a;
+    border-style: solid;
+    border-color: #66FCF1;
+}
+
+#card-text {
+    color: #C5C6C7;
+}
+
+#card-title {
+    color: #C5C6C7;
+}
+
+
+
+@keyframes slide-in {
+    from {
+        transform: translateX(400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
