@@ -4,7 +4,7 @@
 }
 
 .home-welcome {
-    font-size: 5em;
+    font-size: 3.5rem;
     color: #66FCF1;
     animation-name: slide-in-right;
     animation-duration: 2s;
@@ -13,7 +13,7 @@
 
 .home-text {
     color: #C5C6C7;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     animation-name: slide-in-left;
     animation-duration: 2s;
 }
