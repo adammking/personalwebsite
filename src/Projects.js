@@ -26,6 +26,7 @@ function Projects() {
                                     <CardTitle id="card-title" tag="h5">Beervana</CardTitle>
                                     <CardSubtitle tag="h6" className="mb-2 pt-2 text-muted">https://beervana.surge.sh</CardSubtitle>
                                     <CardText id="card-text">Craft beer social media website built with Node.js, Express.js, React, and Redux</CardText>
+                                    <CardText id="card-text">Guest Credentials: Username - guest Password - password</CardText>
                                 </CardBody>
                                 <CardFooter>
                                     <a href="https://beervana.surge.sh" target="_blank" rel="noreferrer"><Button id="projButton">Check it out!</Button></a>
@@ -42,6 +43,7 @@ function Projects() {
                                     <CardTitle id="card-title" tag="h5">Jobly Project</CardTitle>
                                     <CardSubtitle tag="h6" className="mb-2 pt-2 text-muted">https://jobly-front.surge.sh</CardSubtitle>
                                     <CardText id="card-text">Mock job board built with Node.js, Express.js, and React.</CardText>
+                                    <CardText id="card-text">Guest Credentials: Username - guest Password - password</CardText>
                                 </CardBody>
                                 <CardFooter>
                                     <a href="https://jobly-front.surge.sh" target="_blank" rel="noreferrer"><Button id="projButton">Check it out!</Button></a>
@@ -60,6 +62,7 @@ function Projects() {
                                         Full stack application made with postgres, python, and flask. 
                                         Provides information on depression and referrals for resources in the state of Texas.
                                     </CardText>
+                                    <CardText id="card-text">Guest Credentials: Username - guest Password - password</CardText>
                                 </CardBody>
                                 <CardFooter>
                                     <a href="https://capstoneone.herokuapp.com/" target="_blank" rel="noreferrer"><Button id="projButton">Check it out!</Button></a>
